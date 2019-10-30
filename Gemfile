@@ -3,6 +3,8 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '2.4.0'
 #######################
+gem 'stripe', :git => 'https://github.com/stripe/stripe-ruby'
+#######################
 gem 'figaro'
 gem 'bootstrap-sass'
 gem 'font-awesome-rails'
